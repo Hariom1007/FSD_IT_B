@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+    body{
+        font-family: 'Times New Roman',Times,serif;
+        }
+        .container{
+            background-color: whitesmoke;
+            margin: auto;
+            padding: 10px;
+            width:50%;
+        }
+        input[type="email"]{
+            margin-bottom:10px;
+            padding-bottom: 10px;
+            width: 100%;
+        }
+        input[type="password"]{
+            margin-bottom:10px;
+            padding-bottom: 10px;
+            width: 100%;
+        }
+        input[type="email"]:focus{
+           background-color:aqua;
+           color:black
+        }
+        input[type="password"]:focus{
+            background-color:aqua;
+            color:black;
+        }
+        input[type="submit"]{
+            background-color:aqua;
+            width: 40%;
+            color:rgb(219,10,10);
+            
+        }
+        input[type="Reset"]{
+            background-color:aqua;
+            width: 40%;
+            color:rgb(219,10,10);
+            
+        }
+
+        .signin{
+            background-color:rgb(138,8,8);
+            margin: auto;
+            padding: 10px;
+            width:50%;
+        }
+            </style>
+</head>
+<body bgcolor="yellow">
+    <div class="container">
+        <h1>Register</h1>
+        <h2>Please fill in this form to create an account.</h2><hr>
+        <form name="register" method="post" action="/register">
+            <label for="Email">Email</label><br>
+            <input type="email" placeholder="enter email" id="email"><br>
+            <label for="Password">Password</label><br>
+            <input type="password" placeholder="enter pasword" id="pass"><br>
+            <label for="Confirm Password">Confirm Password</label><br>
+            <input type="password" placeholder="confirm password" id="repass"><br> 
+            <p>By creating an account u aggree to our <a href="#">Terms and privacy</a></p>
+            <input type="submit" value="register"/> 
+            <input type="reset" value="Reset"/><hr> 
+
+        </form>
+       
+    </div>
+    <div class="signin">
+       Already have an account ?<a href="#">Signin</a>
+    </div>
+    
+    
+</body>
+</html>
