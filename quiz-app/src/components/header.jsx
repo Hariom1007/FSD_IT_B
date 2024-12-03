@@ -1,6 +1,7 @@
+import'./app.css'
 const Header=()=>{
     return(
-        <div>
+        <div id="Header">
             <h1>
                 ABES Engineering College
             </h1>

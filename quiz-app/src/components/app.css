@@ -1,0 +1,33 @@
+*{
+    margin: opx;
+    padding:opx;
+    box-sizing: border-box;
+}
+    #Header{
+    width: 100vw;
+    height: 10vh;
+    background-color: black ;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+#Footer{
+    width: 100vw;
+    height: 5vh;
+    background-color: black ;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.quiz-container{
+    width: 100vw;
+    height: 85vh;
+    background-color: indigo ;
+    color: white;
+    font-size: 20px;
+    
+
+}

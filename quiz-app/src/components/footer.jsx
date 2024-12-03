@@ -1,6 +1,7 @@
+import'./app.css'
 const Footer=()=>{
     return(
-        <div>
+        <div id="Footer">
             Developed by FSD team
         </div>
     )
